@@ -1,27 +1,18 @@
 body {
-    background-color: #0A3D62; /* Azul escuro */
-    color: #F1F1F1; /* Cinza claro */
+    background-color: #1D4221;
+    color: white;
     font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 700px;
     margin: 0;
 }
 
 button {
-    background-color: #60A3BC; /* Azul claro */
-    color: #FFFFFF;
+    background-color: #64A712;
+    color: white;
     font-family: "Bai Jamjuree", sans-serif;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #3C6382; /* Azul mais escuro no hover */
 }
 
 .passo {
@@ -29,7 +20,7 @@ button:hover {
 }
 
 .passo.ativo {
-    display: block;
+    display:block;
 }
 
 main {
@@ -38,7 +29,5 @@ main {
 }
 
 img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    max-width: 90%;
 }
